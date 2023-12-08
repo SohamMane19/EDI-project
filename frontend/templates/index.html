@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<div class="container-fluid">
+  <div class="row justify-content-center mx-0">
+    <div class="col-md-6">
+      <!-- <label for="exampleSelect" class="form-label"></label> -->
+      <select class="form-select form-control text-center mt-5
+      " id="exampleSelect">
+        <option value="option1">Percentage</option>
+        <option value="option2">Lecture</option>
+        <option value="option3">Booked/Unbooked</option>
+      </select>
+	      <div class="container-fluid mt-5">
+		  <div class="row justify-content-center">
+		    <div class="col-md-8 mb-2">
+		      <!-- Content for the first column -->
+		      <div class="card">
+		        <div class="card-body">
+		          Class room-{{value[0][0]}}<br> 
+		          No of students: {{value[0][1]}}<br>
+		          Percentage: {{value[0][2]}}
+		        </div>
+		      </div>
+		    </div>
+		    <div class="col-md-8 mb-2">
+		      <!-- Content for the second column -->
+		      <div class="card">
+		        <div class="card-body">
+		           Class room-{{value[1][0]}}<br>
+		           No of students: {{value[1][1]}}<br>
+		           Percentage: {{value[1][2]}}
+		        </div>
+		      </div>
+		    </div>
+		    <div class="col-md-8 mb-2">
+		      <!-- Content for the third column -->
+		      <div class="card">
+		        <div class="card-body">
+		           Class room-{{value[2][0]}}<br>
+		           No of students: {{value[2][1]}}<br>
+		           Percentage: {{value[2][2]}}
+		        </div>
+		      </div>
+		    </div>
+		    <div class="col-md-8 mb-2">
+		      <!-- Content for the fourth column -->
+		      <div class="card">
+		        <div class="card-body">
+		           Class room-{{value[3][0]}}<br>
+		           No of students:{{value[3][1]}}<br>
+		           Percentage: {{value[3][2]}}
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="container-fluid mt-2">
+		  <div class="row justify-content-center">
+		    <div class="col-md-8 mb-2">
+		      <!-- Content for the first column -->
+		      <div class="card">
+		        <div class="card-body">
+		          Class room-{{value[4][0]}}<br> 
+		          No of students: {{value[4][1]}}<br>
+		          Percentage: {{value[4][2]}}
+		        </div>
+		      </div>
+		    </div>
+		    <div class="col-md-8 mb-2">
+		      <!-- Content for the second column -->
+		      <div class="card">
+		        <div class="card-body">
+		           Class room-{{value[5][0]}}<br>
+		           No of students: {{value[5][1]}}<br>
+		           Percentage: {{value[5][2]}}
+		        </div>
+		      </div>
+		    </div>
+		    <div class="col-md-8 mb-2">
+		      <!-- Content for the third column -->
+		      <div class="card">
+		        <div class="card-body">
+		           Class room-{{value[6][0]}}<br>
+		           No of students: {{value[6][1]}}<br>
+		           Percentage: {{value[6][2]}}
+		        </div>
+		      </div>
+		    </div>
+		    <div class="col-md-8 mb-2">
+		      <!-- Content for the fourth column -->
+		      <div class="card">
+		        <div class="card-body">
+		           Class room-dummy1<br>
+		           No of students: dummy2<br>
+		           Percentage: dummy3
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div> 
+    </div>
+  </div>
+</div>
+</body>
+</html>
