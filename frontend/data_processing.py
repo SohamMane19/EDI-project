@@ -24,10 +24,10 @@ classes=list(classes)
 
 for i in classes:
 	count=classnos.count(i)
-	per=round((count/80),1)*100
+	per=round((count/150),1)*100
 	class_count_percentage.append([i,count,per])
 
-print(class_count_percentage)
+# print(class_count_percentage)
 # for i in range(len(data_list)):
 # 	classno=data_list[i][0]
 # print(data_list[0][0])
